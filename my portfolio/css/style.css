@@ -1,0 +1,262 @@
+#gandu{
+    text-align: left;
+    color:rgb(6, 166, 219);
+    font-size: 100px;
+}
+body {
+    background-color: #d5d5d5;
+}
+.ruk{
+    font-size: 200px;
+}
+.text {
+    color:rgb(6, 166, 219);
+ 
+   letter-spacing: .05em;
+   text-shadow: 
+     4px 4px 0px #d5d5d5, 
+     7px 7px 0px rgba(0, 0, 0, 0.2);
+   font-size:2.3em;
+   font-family:  sans-serif;
+   -webkit-animation: shift 2s ;
+ animation: shift 2s ;
+   margin-top:125px;
+   text-align:center;
+   text-transform:uppercase;
+
+}
+.mp {
+   animation: appear 4s;
+   text-align:center;
+   font-size: 100px;
+   color:rgb(4, 223, 247);
+}
+
+@keyframes shift {
+   0% {opacity:0;}
+   33% {margin-top:0px;opacity:0;}
+   100% {margin-top:125px;text-shadow: 
+     4px 4px 0px #d5d5d5, 
+     7px 7px 0px rgba(0, 0, 0, 0.2);}
+}
+
+@keyframes appear {
+   0% {opacity:0;}
+   50% {opacity:0;}
+   100% {opacity:1;}
+}
+.yee{
+    font-weight: normal;
+    font-size: 20px;
+}
+#damn{
+    text-align: left;
+    color: rgb(6, 166, 219);
+    font-size: 75px;
+    font-weight: bolder;
+
+}
+
+.topnav{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    overflow: hidden;
+    background-color: rgb(6, 166, 219);
+    gap: 10px;
+}
+.topnav a{
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    padding: 75px 75px;
+    font-size: 25px;
+
+}
+.topnav a:hover{
+    background-color:cyan ;
+    color: aliceblue;
+}
+
+
+.featured-text-info{
+    color: black;
+    font-style: italic;
+    font-size: medium;
+}
+.socialmediaicon{
+    font-size: 70px;
+    color: black;
+    cursor: pointer;
+
+}
+.wrapper{
+  margin: 150px auto;
+  width:70%;
+  
+}
+.image, .image img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: boarder-box;
+    font-family:'Courier New', Courier, monospace;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.daym ul{
+    text-emphasis: bold;
+    text-align: center;
+    size: 100px;
+}
+.daym li{
+    text-align: center;
+    size: 50px;
+}
+.yolo{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+   height: auto;
+    column-gap: 600px;
+    grid-template-columns: 300px auto;
+}
+.humm{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px 30px;
+    padding-inline: 250px;
+    width: 100%;
+    background: white;
+    box-shadow: 1px 9px 10px 2px;
+    border-radius: 20px;
+}
+a.humm span{
+    font-weight: bolder;
+    font-size: 100px;
+}
+.yoyoo{
+    color:  rgb(6, 166, 219);
+}
+.hum{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px 70px;
+    padding-inline: 20px;
+    width: 100%;
+}
+.geee{
+    font-size: 20px;
+    
+}
+.hum ul{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.hum li{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(6, 166, 219);
+    overflow: hidden;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.gaa{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    
+
+}
+.naaa{
+    color:  rgb(6, 166, 219);
+}
+ span.ta{
+    margin: 100px;
+    font-size: 50px;
+    text-align: left;
+    float: left;
+    
+
+}
+.circle1{
+   margin: 100px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   border: 10px solid #56555543;
+   border-top: 10px solid rgb(8, 0, 0);
+   animation: ani 2s linear infinite;
+   
+}
+
+@keyframes ani{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+}
+.yu{
+    text-align: center;
+}
+.gukha{
+    
+    
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    color:  rgb(6, 166, 219);
+
+
+}
+ .fuiyo{
+    text-align: center;
+    font-size: 40px;
+}
+.pq{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 30px 30px;
+    padding-inline:30px 30px;
+    width: 90%;
+    background: white;
+    box-shadow: 1px 9px 10px 2px;
+    border-radius: 20px;
+
+}
+.q{
+    font-size: 25px;
+}
+.w{
+    font-size: 25px;
+}

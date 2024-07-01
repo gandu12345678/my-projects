@@ -1,0 +1,17 @@
+body{
+    justify-content:center;
+    align-items: center;
+    margin: 350px;
+}
+
+div{
+    
+    display: flex;
+    height: 0px;
+    width: 0px;
+    border-bottom: 200px solid red;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+
+
+}

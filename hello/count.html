@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>count</title>
+    <script>
+        let counter=0;
+
+        function hi() {
+            counter++ ;
+            document.querySelector("h1").innerHTML =counter;
+
+            if(counter%10==0){
+                alert("count is now "+counter);
+            }
+        }
+
+        document.querySelector("button").onclick=hi;
+    </script>
+    </head>
+    <body>
+        <h1>0</h1>
+        <button onclick="hi()">Count</button>
+       
+    </body>
+    
+</html>
